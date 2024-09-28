@@ -17,9 +17,10 @@ The `raw` folder contains the original datasets collected from various sources. 
 ### BRFSS
 The Behavioral Risk Factor Surveillance System (BRFSS) data is available: https://www.cdc.gov/brfss/behavioral-risk-factor-surveillance-system.html. Due to the size of the data, it can not be stored in Github. But this list contains all the year location and the code book
 
-| BRFSS-Year                | Savings |
-| :-------------------- | ------- |
-| 2011 Annual Survey Data   | $250    |
+| BRFSS-Year                | Codebook |
+| :--------------------     | ------- |
+| [2011 Annual Survey Data](https://www.cdc.gov/brfss/annual_data/annual_2011.htm)   | [Link](https://www.cdc.gov/brfss/annual_data/2011/pdf/CODEBOOK11_LLCP.pdf)    |
+|                                                                                      |            |
 
 * 
 
