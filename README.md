@@ -1,6 +1,7 @@
 # Hatecrime-LGBTQPol
 This repository contains all materials related to our research project investigating the relationships between hate crime incidents, mental health outcomes, and the presence of LGBTQ politicians. The study aims to explore how the representation of LGBTQ individuals in politics may impact the mental health of LGBTQ communities and the prevalence of hate crimes.
 
+```
 ├── data
 │   ├── raw                # Unprocessed, original datasets
 │   ├── processed          # Cleaned and modified datasets for analysis
@@ -27,3 +28,4 @@ This repository contains all materials related to our research project investiga
 ├── LICENSE                # License for the repository
 ├── README.md              # Overview of the project
 └── .gitignore             # Files and directories to ignore in git
+```
