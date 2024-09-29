@@ -34,8 +34,18 @@ Note: Florida changed its reporting system in 2021, therefore the raw dataset co
 
 #### `HCSP/Raw Table`
 This folder contains the compressed tables and reported directly downloaded from the FBI's UCR system. It needs to be processed before can be used.
+* `clean.do` - dofile to clean the HCSP table 13 (quarterly data) into dta file.
 
 #### `HCSP/Processed Data`
-This folder 
+This folder contains the processed data, including the following datasets:
+* `hate crime by motivation and state and year 2004_2023.dta` - hate crime statistics by state and year and motivation;
+* `hate crime by state quarter 2007_2023.dta` - hate crime statistics by quarter, state and year;
+* `law enforcement officers feloniously killed.dta` - law enforcement 
+* `Q2008.dta` to `Q2019.dta` - quarterly data
+* `state level agencies.dta` - state level FBI agenecies
 
+#### `LGBTQ/`
+This folder contains the processed LGBTQ data from [Wikipedia](https://en.wikipedia.org/wiki/List_of_LGBTQ_politicians_in_the_United_States)
+The code for processing the data can be found [here](https://colab.research.google.com/drive/1qZ1TxAPBjV5Up4pnDoAaWu0UT1wPgbPc?usp=drive_link)
+The most up-to-date data is from 2000 to 2023.
 
