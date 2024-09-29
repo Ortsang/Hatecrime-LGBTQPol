@@ -51,7 +51,9 @@ This folder contains the processed data, including the following datasets:
 
 #### [`LGBTQ/`](./raw/LGBTQ/)
 This folder contains the processed LGBTQ data from [Wikipedia](https://en.wikipedia.org/wiki/List_of_LGBTQ_politicians_in_the_United_States)
+
 The code for processing the data can be found [here](https://colab.research.google.com/drive/1qZ1TxAPBjV5Up4pnDoAaWu0UT1wPgbPc?usp=drive_link)
+
 The most up-to-date data is from 2000 to 2023.
 
 #### [`ACA/`](./raw/ACA/)
@@ -80,7 +82,7 @@ This folder contains the other covariates, with the list as follows:
     * 2020 is missing due to Covid. For 2020, I use the average number of 2019 and 2021. 
 3. High school graduates or higher, 2007-2023: [Fed](https://fred.stlouisfed.org/release/tables?rid=330&eid=391443)
 4. Gay event and resources, 2012-2023: [Damron](https://damron.com/events-and-tours/previous-events#events_September_2023)
-5. Covid death and cases, 2020-2023, covid data from https://github.com/nytimes/covid-19-data/blob/master/us-states.csv
+5. Covid death and cases, 2020-2023, covid data from [nytimes](https://github.com/nytimes/covid-19-data/blob/master/us-states.csv)
 6. State-statefips crosswalk
 7. state-stateabbraviation crosswalk
 8. `vote2016` & `vote2020`: 2016 and 2020 presidential election turnout, results saved to trump vs. non-trump vote, data from Federal Election Commission. October 2022.
