@@ -12,6 +12,7 @@ data
 │   │   ├── Raw Tables      # Raw Tables from HCSP system
 │   │   └── Processed Data  # Processed Data, mostly stored in Dta form
 │   ├── ACA/           # ACA Medicaid Enrollment data
+│
 ├── processed/         # Cleaned and modified datasets for analysis
 └── README.md          # Documentation for data sources and preprocessing
 ```
@@ -52,8 +53,26 @@ This folder contains the processed LGBTQ data from [Wikipedia](https://en.wikipe
 The code for processing the data can be found [here](https://colab.research.google.com/drive/1qZ1TxAPBjV5Up4pnDoAaWu0UT1wPgbPc?usp=drive_link)
 The most up-to-date data is from 2000 to 2023.
 
+#### [`ACA/`](./raw/ACA/)
+[**Medicaid Enrollment - New Adult Group**](https://data.medicaid.gov/dataset/6c114b2c-cb83-559b-832f-4d8b06d6c1b9/data?conditions[0][property]=enrollment_year&conditions[0][value]=2024&conditions[0][operator]=starts%20with)
+The enrollment information is a state-reported count of unduplicated individuals enrolled in the state’s Medicaid program at any time during each month in the quarterly reporting period. The enrollment data identifies the total number of Medicaid enrollees and, for states that have expanded Medicaid, provides specific counts for the number of individuals enrolled in the new adult eligibility group, also referred to as the “VIII Group”. The VIII Group is only applicable for states that have expanded their Medicaid programs by adopting the VIII Group. This data includes state-by-state data for this population as well as a count of individuals whom the state has determined are newly eligible for Medicaid. All 50 states, the District of Columbia and the US territories are represented in these data.
+
+[**Status of State Medicaid Expansion Decisions**](https://www.kff.org/affordable-care-act/issue-brief/status-of-state-medicaid-expansion-decisions-interactive-map/) from KFF
+The Affordable Care Act’s (ACA) Medicaid expansion expanded Medicaid coverage to nearly all adults with incomes up to 138% of the Federal Poverty Level ($20,783 for an individual in 2024) and provided states with an enhanced federal matching rate (FMAP) for their expansion populations.
+To date, 41 states (including DC) have adopted the Medicaid expansion and 10 states have not adopted the expansion. Current status for each state is based on KFF tracking and analysis of state expansion activity.
+
+**Data**
+* `data2014` - `data2023`: monthly medicaid enrollment statistics from Medicaid.gov
+* `Other/ACAexpansion.csv` : information about state's decision on adopting ACA expansion, from KFF
+* `ACA.dta` & `ACAcode.do`: processing the Medicaid enrollment and ACAexpansion decision 
+
+Notes:
+1. “VIII GROUP” is also known as the “New Adult Group.”
+2. The VIII Group is only applicable for states that have expanded their Medicaid programs by adopting the VIII Group. VIII Group enrollment information for the states that have not expanded their Medicaid program is noted as “N/A.”
+
 #### [`Other/`](./raw/Other/)
 This folder contains the other covariates, with the list as follows:
+**Data**
 1. [Unemployment rate](./raw/Other/unemployment%20rate%20by%20state%20year%201980_2023.dta),1980-2023: [BLS](https://www.bls.gov/lau/tables.htm#stateaa) 
 2. [Sex ratio](./raw/Other/sexratio20072023.dta), 2007-2023: [KFF](https://www.kff.org/other/state-indicator/distribution-by-sex/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D)
     * Sex Ratio 2023 - 2023 sex ratio from [wisevoter](https://wisevoter.com/state-rankings/male-to-female-ratio-by-state/#wisconsin)
