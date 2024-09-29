@@ -61,14 +61,14 @@ The enrollment information is a state-reported count of unduplicated individuals
 The Affordable Care Act’s (ACA) Medicaid expansion expanded Medicaid coverage to nearly all adults with incomes up to 138% of the Federal Poverty Level ($20,783 for an individual in 2024) and provided states with an enhanced federal matching rate (FMAP) for their expansion populations.
 To date, 41 states (including DC) have adopted the Medicaid expansion and 10 states have not adopted the expansion. Current status for each state is based on KFF tracking and analysis of state expansion activity.
 
+<sub><sup>Notes:
+1. “VIII GROUP” is also known as the “New Adult Group.”
+2. The VIII Group is only applicable for states that have expanded their Medicaid programs by adopting the VIII Group. VIII Group enrollment information for the states that have not expanded their Medicaid program is noted as “N/A.”</sup></sub>
+
 **Data**
 * `data2014` - `data2023`: monthly medicaid enrollment statistics from Medicaid.gov
 * `Other/ACAexpansion.csv` : information about state's decision on adopting ACA expansion, from KFF
 * `ACA.dta` & `ACAcode.do`: processing the Medicaid enrollment and ACAexpansion decision 
-
-Notes:
-1. “VIII GROUP” is also known as the “New Adult Group.”
-2. The VIII Group is only applicable for states that have expanded their Medicaid programs by adopting the VIII Group. VIII Group enrollment information for the states that have not expanded their Medicaid program is noted as “N/A.”
 
 #### [`Other/`](./raw/Other/)
 This folder contains the other covariates, with the list as follows:
