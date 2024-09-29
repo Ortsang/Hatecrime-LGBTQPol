@@ -9,8 +9,9 @@ Not all datasets will be stored in the Github, given the data limit. The origin 
 data
 ├── raw/               # Original, unprocessed datasets
 |   └── HCSP/           # Hate crime HCSP data from FBI
-|       ├── Raw Tables      # Raw Tables from HCSP system
-|       └── Processed Data  # Processed Data, mostly stored in Dta form
+|   |   ├── Raw Tables      # Raw Tables from HCSP system
+|   |   └── Processed Data  # Processed Data, mostly stored in Dta form
+|   ├── ACA/           # ACA Medicaid Enrollment data
 ├── processed/         # Cleaned and modified datasets for analysis
 └── README.md          # Documentation for data sources and preprocessing
 ```
