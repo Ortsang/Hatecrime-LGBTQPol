@@ -8,8 +8,14 @@ This repository contains all materials related to our research project investiga
 │   ├── processed          # Cleaned and modified datasets for analysis
 │   └── README.md          # Documentation for data sources and preprocessing steps
 ├── scripts
-│   ├── data_cleaning      # Scripts for cleaning and preprocessing data
-│   ├── analysis           # Scripts for data analysis and visualization
+│   └── PubHealth          # Scripts for Public Health association
+│   │   ├── analysis         
+│   │   ├── data_cleaning
+│   │   └── exhibit        
+│   ├── Causality          # Scripts for causality identification - DID
+│   │   ├── analysis         
+│   │   ├── data_cleaning
+│   │   └── exhibit         
 │   └── README.md          # Instructions on how to run the scripts
 ├── results
 │   ├── figures            # Visualizations and plots

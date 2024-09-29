@@ -7,20 +7,21 @@ Not all datasets will be stored in the Github, given the data limit. The origin 
 ## Folder Structure
 ```
 data
-├── raw/               # Original, unprocessed datasets
-│   ├── HCSP/           # Hate crime HCSP data from FBI
-│   │   ├── Raw Tables      # Raw Tables from HCSP system
-│   │   └── Processed Data  # Processed Data, mostly stored in Dta form
-│   ├── ACA/           # ACA Medicaid Enrollment data
-│
-├── processed/         # Cleaned and modified datasets for analysis
-└── README.md          # Documentation for data sources and preprocessing
+├── raw/                        # Original, unprocessed datasets
+│   ├── HCSP/                       # Hate crime HCSP data from FBI
+│   │   ├── Raw Tables/                 # Raw Tables from HCSP system
+│   │   └── Processed Data/             # Processed Data, mostly stored in Dta form
+│   ├── ACA/                        # ACA Medicaid Enrollment data
+│   ├── LGBTQ/                      # LGBTQ politician data from Wikipedia
+│   └── Other/                      # Other covariates data from different sources 
+├── processed/                  # Cleaned and modified datasets for analysis
+└── README.md                   # Documentation for data sources and preprocessing
 ```
 
 ## `raw/`
 The `raw` folder contains the original datasets collected from various sources. These datasets are not modified and are stored here for reference.
 ### BRFSS
-The Behavioral Risk Factor Surveillance System (BRFSS) data is available: https://www.cdc.gov/brfss/behavioral-risk-factor-surveillance-system.html. Due to the size of the data, it can not be stored in Github. But this list contains all the year location and the code book
+The Behavioral Risk Factor Surveillance System (BRFSS) data is available [here](https://www.cdc.gov/brfss/behavioral-risk-factor-surveillance-system.html). Due to the size of the data, it can not be stored in Github. But this list contains all the year location and the code book
 
 | BRFSS-Year                | Codebook |
 | :--------------------     | ------- |
@@ -61,9 +62,9 @@ The enrollment information is a state-reported count of unduplicated individuals
 The Affordable Care Act’s (ACA) Medicaid expansion expanded Medicaid coverage to nearly all adults with incomes up to 138% of the Federal Poverty Level ($20,783 for an individual in 2024) and provided states with an enhanced federal matching rate (FMAP) for their expansion populations.
 To date, 41 states (including DC) have adopted the Medicaid expansion and 10 states have not adopted the expansion. Current status for each state is based on KFF tracking and analysis of state expansion activity.
 
-<sub><sup>Notes:
+Notes:
 1. “VIII GROUP” is also known as the “New Adult Group.”
-2. The VIII Group is only applicable for states that have expanded their Medicaid programs by adopting the VIII Group. VIII Group enrollment information for the states that have not expanded their Medicaid program is noted as “N/A.”</sup></sub>
+2. The VIII Group is only applicable for states that have expanded their Medicaid programs by adopting the VIII Group. VIII Group enrollment information for the states that have not expanded their Medicaid program is noted as “N/A.”
 
 **Data**
 * `data2014` - `data2023`: monthly medicaid enrollment statistics from Medicaid.gov
@@ -80,7 +81,12 @@ This folder contains the other covariates, with the list as follows:
 3. High school graduates or higher, 2007-2023: [Fed](https://fred.stlouisfed.org/release/tables?rid=330&eid=391443)
 4. Gay event and resources, 2012-2023: [Damron](https://damron.com/events-and-tours/previous-events#events_September_2023)
 5. Covid death and cases, 2020-2023, covid data from https://github.com/nytimes/covid-19-data/blob/master/us-states.csv
+6. State-statefips crosswalk
+7. state-stateabbraviation crosswalk
+8. `vote2016` & `vote2020`: 2016 and 2020 presidential election turnout, results saved to trump vs. non-trump vote, data from Federal Election Commission. October 2022.
 
 
 * (Missing) Population: [FBI Crime Data Explorer](https://cde.ucr.cjis.gov/LATEST/webapp/#) 
 
+## Potential Data Candidates
+1. [American Value Altas](https://ava.prri.org/about), *Starting from 2014, LGBTQ topics from 2015*: The American Values Atlas (AVA) is a powerful new tool for understanding the complex demographic, religious, and cultural changes occurring in the United States today. Recognizing the need to provide a more complete portrait of substantial diversity of opinion, identities and values across the U.S. PRRI launched the AVA in late 2014. In 2015, the AVA launched specific issue modules, covering topics such as immigration, abortion, LGBTQ issues, and others.
