@@ -20,6 +20,7 @@ data
 
 ## `raw/`
 The `raw` folder contains the original datasets collected from various sources. These datasets are not modified and are stored here for reference.
+
 ### BRFSS
 The Behavioral Risk Factor Surveillance System (BRFSS) data is available [here](https://www.cdc.gov/brfss/behavioral-risk-factor-surveillance-system.html). Due to the size of the data, it can not be stored in Github. But this list contains all the year location and the code book
 
@@ -75,6 +76,7 @@ Notes:
 
 #### [`Other/`](./raw/Other/)
 This folder contains the other covariates, with the list as follows:
+
 **Data**
 1. [Unemployment rate](./raw/Other/unemployment%20rate%20by%20state%20year%201980_2023.dta),1980-2023: [BLS](https://www.bls.gov/lau/tables.htm#stateaa) 
 2. [Sex ratio](./raw/Other/sexratio20072023.dta), 2007-2023: [KFF](https://www.kff.org/other/state-indicator/distribution-by-sex/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D)
