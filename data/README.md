@@ -87,7 +87,7 @@ This folder contains the other covariates, with the list as follows:
 5. Covid death and cases, 2020-2023, covid data from [nytimes](https://github.com/nytimes/covid-19-data/blob/master/us-states.csv)
 6. State-statefips crosswalk
 7. state-stateabbraviation crosswalk
-8. `vote2016` & `vote2020`: 2016 and 2020 presidential election turnout, results saved to trump vs. non-trump vote, data from Federal Election Commission. October 2022.
+8. `vote/`: 2008-2020 presidential election turnout, results saved to trump vs. non-trump vote, data from Federal Election Commission. October 2022.
 
 
 * (Missing) Population: [FBI Crime Data Explorer](https://cde.ucr.cjis.gov/LATEST/webapp/#) 
