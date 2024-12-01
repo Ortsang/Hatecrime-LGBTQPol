@@ -34,7 +34,48 @@ The hate crime data is from FBI Hate Crime Statistics Program (HCSP). Through th
 
 As of January 1, 2021, the FBI National Incident-Based Reporting System (NIBRS) is the national standard by which law enforcement agencies submit crime data to the FBI. NIBRS agencies indicate whether an offense was motivated by an offender’s bias against the victim for each reported offense. For more information, refer to the FBI’s Hate Crime Statistics program page.
 
-Note: Florida changed its reporting system in 2021, therefore the raw dataset contains no quarterly data for Florida in 2021; we supplement the data with [Florida Hate Crime Report](https://www.myfloridalegal.com/files/pdf/page/BE0185D36969417B852589270066D783/Web+Link.pdf).
+Note: 
+The following table reports the number of hate crime in each state collected from state websites.
+
+| State                 | Link                                                                      | Number      |
+| :-------------------- | ---------------------                                                     | -------     | 
+| Florida(2021)               | [Florida Hate Crime Report](https://www.myfloridalegal.com/files/pdf/page/BE0185D36969417B852589270066D783/Web+Link.pdf)       | 148        |
+| California(2021)            | [Executive Summary Hate Crime in California 2021](https://data-openjustice.doj.ca.gov/sites/default/files/2022-08/Hate%20Crime%20In%20CA%202021.pdf#page=5.08)     | 2221       |
+| Arizona(2021)               | [Arizona Crime Statistics](https://azcrimestatistics.azdps.gov/tops/report/hate-crime/arizona/2023)                                                                                 | 244        |
+| D.C.(2021)                  | [Bias-Related Crimes (Hate Crimes) Data](https://mpdc.dc.gov/hatecrimes)  | 149         |
+| Illinois(2021)              | [Crime in Illinois 2021](https://isp.illinois.gov/CrimeReporting/Cii2021) | 132       |
+| Maryland(2019)        | [STATE OF MARYLAND 2019 HATE BIAS REPORT](https://mdsp.maryland.gov/Document%20Downloads/State%20of%20Maryland%202019%20Hate%20Bias%20Report.pdf)| 90     |
+| Maryland(2011)        | [STATE OF MARYLAND 2020 HATE BIAS REPORT](https://mcac.maryland.gov/wp-content/uploads/2022/09/Hate_Bias_2020.pdf#page=12.05)| 78                                                       |
+| Maryland(2012)        | [STATE OF MARYLAND 2020 HATE BIAS REPORT](https://mcac.maryland.gov/wp-content/uploads/2022/09/Hate_Bias_2020.pdf#page=12.05)| 50                                                       |
+| Maryland(2013)        | [STATE OF MARYLAND 2020 HATE BIAS REPORT](https://mcac.maryland.gov/wp-content/uploads/2022/09/Hate_Bias_2020.pdf#page=12.05)| 78                                                       |
+| Maryland(2014)        | [STATE OF MARYLAND 2020 HATE BIAS REPORT](https://mcac.maryland.gov/wp-content/uploads/2022/09/Hate_Bias_2020.pdf#page=12.05)| 58                                                       |
+| Maryland(2015)        | [STATE OF MARYLAND 2020 HATE BIAS REPORT](https://mcac.maryland.gov/wp-content/uploads/2022/09/Hate_Bias_2020.pdf#page=12.05)| 79                                                       |
+| Maryland(2016)        | [STATE OF MARYLAND 2020 HATE BIAS REPORT](https://mcac.maryland.gov/wp-content/uploads/2022/09/Hate_Bias_2020.pdf#page=12.05)| 102                                                      |
+| Maryland(2017)        | [STATE OF MARYLAND 2020 HATE BIAS REPORT](https://mcac.maryland.gov/wp-content/uploads/2022/09/Hate_Bias_2020.pdf#page=12.05)| 183                                                      |
+| Maryland(2018)        | [STATE OF MARYLAND 2020 HATE BIAS REPORT](https://mcac.maryland.gov/wp-content/uploads/2022/09/Hate_Bias_2020.pdf#page=12.05)| 100                                                      |
+| Maryland(2019)        | [STATE OF MARYLAND 2020 HATE BIAS REPORT](https://mcac.maryland.gov/wp-content/uploads/2022/09/Hate_Bias_2020.pdf#page=12.05)| 85                                                       |
+| Maryland(2020)        | [STATE OF MARYLAND 2020 HATE BIAS REPORT](https://mcac.maryland.gov/wp-content/uploads/2022/09/Hate_Bias_2020.pdf#page=12.05)| 111                                                      |
+| Maryland(2021)        | [STATE OF MARYLAND 2023 HATE BIAS REPORT](https://mcac.maryland.gov/wp-content/uploads/2024/10/2023-Hate-Bias-Report.pdf)                                      | 103                                                      |
+| Maryland(2022)        | [STATE OF MARYLAND 2023 HATE BIAS REPORT](https://mcac.maryland.gov/wp-content/uploads/2024/10/2023-Hate-Bias-Report.pdf)                                      | 130                                                       |
+| Maryland(2023)        | [STATE OF MARYLAND 2023 HATE BIAS REPORT](https://mcac.maryland.gov/wp-content/uploads/2024/10/2023-Hate-Bias-Report.pdf)                                      | 277                                                       |
+| New Jersey(2012)      | [2012 Bias Incident Report](https://nj.gov/njsp/info/pdf/2012_bias_rpt.pdf)| 522          |
+| New Jersey(2019)      | [2021-2022 Bias Incident Report](https://www.nj.gov/oag/newsreleases24/2021-22_Bias-Incident_Report_0307_COMPLETE.pdf)                    | 994                                                       |
+| New Jersey(2019)      | [2021-2022 Bias Incident Report](https://www.nj.gov/oag/newsreleases24/2021-22_Bias-Incident_Report_0307_COMPLETE.pdf)                    | 994                                                       |
+| New Jersey(2020)      | [2021-2022 Bias Incident Report](https://www.nj.gov/oag/newsreleases24/2021-22_Bias-Incident_Report_0307_COMPLETE.pdf)                    | 1447                                                      |
+| New Jersey(2021)      | [2021-2022 Bias Incident Report](https://www.nj.gov/oag/newsreleases24/2021-22_Bias-Incident_Report_0307_COMPLETE.pdf)                    | 1885                                                      |
+| New Jersey(2022)      | [2021-2022 Bias Incident Report](https://www.nj.gov/oag/newsreleases24/2021-22_Bias-Incident_Report_0307_COMPLETE.pdf)                    | 2211                                                      |
+| New York(2012)      | [Hate Crime in New York State 2012 Annual Report](https://www.criminaljustice.ny.gov/crimnet/ojsa/hate-crime-in-nys-2012-annual-report.pdf)                        | 720                                                      |
+| New York(2013)      | [Hate Crime in New York State 2017 Annual Report](https://www.criminaljustice.ny.gov/crimnet/ojsa/hate-crime-in-nys-2017-annual-report.pdf)                        | 617                                                      |
+| New York(2014)      | [Hate Crime in New York State 2017 Annual Report](https://www.criminaljustice.ny.gov/crimnet/ojsa/hate-crime-in-nys-2017-annual-report.pdf)                        | 588                                                      |
+| New York(2015)      | [Hate Crime in New York State 2017 Annual Report](https://www.criminaljustice.ny.gov/crimnet/ojsa/hate-crime-in-nys-2017-annual-report.pdf)                        | 503                                                      |
+| New York(2016)      | [Hate Crime in New York State 2017 Annual Report](https://www.criminaljustice.ny.gov/crimnet/ojsa/hate-crime-in-nys-2017-annual-report.pdf)                        | 598                                                      |
+| New York(2017)      | [Hate Crime in New York State 2017 Annual Report](https://www.criminaljustice.ny.gov/crimnet/ojsa/hate-crime-in-nys-2017-annual-report.pdf)                        | 558                                                      |
+| New York(2018)      | [Hate Crime in New York State 2021 Annual Report](https://www.criminaljustice.ny.gov/crimnet/ojsa/hate-crime-in-nys-2021-annual-report.pdf)                        | 527                                                      |
+| New York(2019)      | [Hate Crime in New York State 2021 Annual Report](https://www.criminaljustice.ny.gov/crimnet/ojsa/hate-crime-in-nys-2021-annual-report.pdf)                        | 644                                                      |
+| New York(2020)      | [Hate Crime in New York State 2021 Annual Report](https://www.criminaljustice.ny.gov/crimnet/ojsa/hate-crime-in-nys-2021-annual-report.pdf)                        | 496                                                      |
+| New York(2021)      | [Hate Crime in New York State 2021 Annual Report](https://www.criminaljustice.ny.gov/crimnet/ojsa/hate-crime-in-nys-2021-annual-report.pdf)                        | 773                                                      |
+| Oklahoma(2020)      | [crime in oklahoma - 2020](https://www.ok.gov/dac/documents/Crime_in_Oklahoma_2020_-_Final.pdf#page=79.22)                                | 43                                                       |
+| Virginia(2021)      | [Virginia’s Annual Crime Analysis Report](https://vsp.virginia.gov/virginias-annual-crime-analysis-report-for-2021-now-available-on-virginia-state-police-website/#:~:text=There%20were%20123%20hate%20crime,35.3%25%20decrease%20compared%20to%202020.)|123               |
 
 Data are captured from [FBI Crime Data Explorer](https://cde.ucr.cjis.gov/LATEST/webapp/#).
 
