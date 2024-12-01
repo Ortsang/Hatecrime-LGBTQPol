@@ -44,7 +44,6 @@ The following table reports the number of hate crime in each state collected fro
 | Arizona(2021)               | [Arizona Crime Statistics](https://azcrimestatistics.azdps.gov/tops/report/hate-crime/arizona/2023)                                                                                 | 244        |
 | D.C.(2021)                  | [Bias-Related Crimes (Hate Crimes) Data](https://mpdc.dc.gov/hatecrimes)  | 149         |
 | Illinois(2021)              | [Crime in Illinois 2021](https://isp.illinois.gov/CrimeReporting/Cii2021) | 132       |
-| Maryland(2019)        | [STATE OF MARYLAND 2019 HATE BIAS REPORT](https://mdsp.maryland.gov/Document%20Downloads/State%20of%20Maryland%202019%20Hate%20Bias%20Report.pdf)| 90     |
 | Maryland(2011)        | [STATE OF MARYLAND 2020 HATE BIAS REPORT](https://mcac.maryland.gov/wp-content/uploads/2022/09/Hate_Bias_2020.pdf#page=12.05)| 78                                                       |
 | Maryland(2012)        | [STATE OF MARYLAND 2020 HATE BIAS REPORT](https://mcac.maryland.gov/wp-content/uploads/2022/09/Hate_Bias_2020.pdf#page=12.05)| 50                                                       |
 | Maryland(2013)        | [STATE OF MARYLAND 2020 HATE BIAS REPORT](https://mcac.maryland.gov/wp-content/uploads/2022/09/Hate_Bias_2020.pdf#page=12.05)| 78                                                       |
